@@ -47,7 +47,7 @@ Before diving into all features, you can quickly test the simulator using the fo
 
 - **Error Handling**:
    - Handles non-numeric inputs using `InputMismatchException`.
-   - Limits the number of invalid inputs to prevent misuse (with a cooldown period after multiple invalid attempts using `Thread.sleep()`)
+   - Limits the number of invalid inputs to prevent misuse (with a cooldown period after multiple invalid attempts using `Thread.sleep()`).
    - Ensures users cannot transfer money to their own account.
    
 - **Intuitive Interface**:
